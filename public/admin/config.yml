@@ -1,9 +1,6 @@
 backend:
-  name: github # Or gitlab
-  repo: digitaldiy/nextjs-auth-alt # Your username and repository
-  branch: master # Branch to use
-  base_url: https://us-central1-auth-test-809b4.cloudfunctions.net/oauth  # The base URL for your Firebase Function
-  auth_endpoint: /oauth/auth # The path to the OAuth endpoint of the function
+  name: git-gateway
+  branch: master
 media_folder: public/images
 public_folder: /images
 publish_mode: editorial_workflow
